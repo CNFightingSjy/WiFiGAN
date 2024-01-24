@@ -1,0 +1,15 @@
+CUDA_VISIBLE_DEVICES=0 python scripts/train.py \
+--input_nc=1 \
+--dataset_type=wifi_encode \
+--exp_dir=/data/shijianyang/code/WiFiGAN/experiment/gen0124 \
+--workers=8 \
+--output_size=256 \
+--batch_size=16 \
+--test_batch_size=16 \
+--test_workers=16 \
+--val_interval=2500 \
+--save_interval=5000 \
+--encoder_type=CSN \
+--lpips_lambda=0.8 \
+--l2_lambda=1 \
+--train_decoder=True

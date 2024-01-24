@@ -33,7 +33,7 @@ class WiFiGEN(nn.Module):
 		self.face_pool = torch.nn.AdaptiveAvgPool2d((256, 256))
 		self.latent_avg = None
 		# Load weights if needed
-		self.load_weights()
+		# self.load_weights()
 
 	def set_encoder(self):
 		if self.opts.encoder_type == 'CSN':
