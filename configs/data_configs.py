@@ -9,5 +9,13 @@ DATASETS = {
 		'train_target_root': dataset_paths['epsono'],
 		'test_source_root': dataset_paths['ptot_test'],
 		'test_target_root': dataset_paths['epsono_test'],
+	},
+	"wifi_encode_gray" :{
+		'transforms': transforms_config.MatTransforms,
+		'train_source_root': dataset_paths['ptot'],
+		'train_target_root': dataset_paths['gray_epsono'],
+		'test_source_root': dataset_paths['ptot_test'],
+		'test_target_root': dataset_paths['gray_epsono_test'],
 	}
+
 }

@@ -2,7 +2,10 @@ dataset_paths = {
     'epsono': '/data1/sjy/data/wifigan/train/rgb_epsilon/',
     'ptot': '/data1/sjy/data/wifigan/test/ptot/',
     'epsono_test': '/data1/sjy/data/wifigan/test/rgb_epsilon/',
-    'ptot_test': '/data1/sjy/data/wifigan/test/ptot/'
+    'ptot_test': '/data1/sjy/data/wifigan/test/ptot/',
+	'gray_epsono': '/data1/sjy/data/wifigan/train/gray_epsilon/',
+	'gray_epsono_test': '/data1/sjy/data/wifigan/test/gray_epsilon/',
+
 }
 
 model_paths = {
