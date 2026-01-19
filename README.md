@@ -7,5 +7,7 @@ imaging output. For reproducibility, we will release the data and code upon acce
 - [x] Initial code release  
 - [x] Release training code
 
-## 代码说明 
-- utils/readmat.py # Process MAT files into data pairs suitable for model training.
+## Project Structure
+```text
+├── utils/ 
+│   ├──readmat.py # Process MAT files into data pairs suitable for model training.
