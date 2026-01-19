@@ -8,4 +8,4 @@ imaging output. For reproducibility, we will release the data and code upon acce
 - [x] Release training code
 
 ## 代码说明 
-- utils/readmat.py 将mat文件处理为可用于模型训练使用的数据对
+- utils/readmat.py # Process MAT files into data pairs suitable for model training.
